@@ -10,6 +10,7 @@ import CareerJourney from './components/CareerJourney';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ResumeModal from './components/ResumeModal';
 
 export default function App() {
@@ -106,6 +107,9 @@ export default function App() {
 
       {/* Floating Back to Top Button */}
       <BackToTop />
+
+      {/* Floating WhatsApp Quick Chat Button */}
+      <FloatingWhatsApp />
 
       {/* Official Verified Resume Modal */}
       {isResumeOpen && (
